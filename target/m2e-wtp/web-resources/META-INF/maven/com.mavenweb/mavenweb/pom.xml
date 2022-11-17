@@ -8,7 +8,7 @@
   <artifactId>mavenweb</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-
+	
   <name>mavenweb Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -26,6 +26,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>4.0.1</version>
+	    <scope>provided</scope>
+	</dependency>
   </dependencies>
 
   <build>
